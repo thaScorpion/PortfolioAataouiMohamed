@@ -1,0 +1,76 @@
+/* initialisation */
+*,
+*::before,
+*::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+    font-size: 0.95em;
+}
+
+body
+{
+    background-color: #eeeeee;
+    color: #355070;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* main styling */
+
+.description-container
+{
+    /* background-color: aqua; */
+    /* float: left; */
+    width: 100%;
+    max-width: 100vh;
+    min-width: 100vh;
+    height: 100%;
+    max-height: 70vh;
+    min-height: 70vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.bigtitle-container
+{
+    font-size: 3em;
+    color: #355070;
+}
+
+.bg-container img
+{
+    width: 200vh;
+    transform: translate(-100vh, -80vh);
+    position: absolute;
+    z-index: -1000000;
+}
+.profil-container
+{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.profil-container img
+{
+    width: 30%;
+    max-width: 70vh;
+    min-width: 70vh;
+}
+main
+{
+    display: flex;
+    align-items: center;
+}
+.key
+{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
